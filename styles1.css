@@ -110,7 +110,7 @@ h2{
    box-shadow: #4472f3;
     color: #ffffff;
     padding: 8px 16px;
-    margin-left: 100px;
+    margin-left: 0px;
     border-radius: 15px;
     font-weight: 600;
     font-size: 3px;
@@ -355,6 +355,7 @@ h2{
   background: linear-gradient(180deg, #141c30, #032d71);
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 .about-container {
@@ -951,6 +952,27 @@ body {
 
 .home-content h2 {
   animation: floatY 2s ease-in-out infinite;
+}
+
+/* Resume Download Button in Navbar */
+.nav-content .resume-btn {
+  margin-left: 20px;
+  padding: 8px 18px;
+  background: linear-gradient(135deg, #a7bcf6, #3f89fc);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-content .resume-btn:hover {
+  background: #4070f4;
+  color: #fff;
 }
 
 

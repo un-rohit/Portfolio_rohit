@@ -27,6 +27,12 @@ body {
     color: #ffffff;
   }
   
+  .navbar-button {
+    margin-left: 8px;
+    position: relative;
+    z-index: 1;
+  }
+  
   .hero {
     display: flex;
     justify-content: space-between;
@@ -95,6 +101,7 @@ body {
     display: flex;
     padding: 4rem 2rem;
     gap: 4rem;
+    color: white;
   }
   
   .services {
@@ -128,4 +135,3 @@ body {
   .stats div {
     font-size: 1.1rem;
   }
-  
